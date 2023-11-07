@@ -23,15 +23,20 @@
       2. DNS Serevers
       3. Routing
   
-Intranet (LAN)
+9. OSI Model - is a guideline that helps different devices communicate with each other. <BR>
+     7 DIFFERENT LAYERS <BR><BR>
+           A. **Physical layer**: Actual hardware travel b/w devices. Eg- cables, bits(0s and 1s) <br> <br>
+           B. **Data link layer**: Manages how data is sent and received within a local network, like making sure the right data goes to the right device. <BR> <BR>
+           C. **Network layer**: Handles how data is routed across different networks, like the internet, and finds the best path for it. <BR> <BR>
+           D. **Transport layer**: Takes care of how data is sent and received between devices, making sure everything arrives accurately and in the right order.    <BR> <BR>
+           E. **Session layer**: It manages the communication sessions between devices, making sure they start and end properly. <BR> <BR>
+           F. **Presentation layer**: Deals with the format of the data, like converting it to a readable form or encrypting it for security. <BR> <BR>
+           G. **Application layer**: This is where specific programs and software work. It's where your web browser, email, or other applications exist, allowing you to interact with the network.
 
-NAT
+10. 
+    
+  
 
-*LAYERS*
-OSI MODEL
-L1: PHYSICAL
-L2: LINKS
-L3: Application
 
 
 PORT NUMBER:
