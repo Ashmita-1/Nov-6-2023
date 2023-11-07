@@ -33,7 +33,23 @@
            F. **Presentation layer**: Deals with the format of the data, like converting it to a readable form or encrypting it for security. <BR> <BR>
            G. **Application layer**: This is where specific programs and software work. It's where your web browser, email, or other applications exist, allowing you to interact with the network.
 
-10. 
+10. Kubernetes - is an open-source container orchestration platform developed by Google. It is used for managing and automating application container deployments across multiple machine clusters. It allows you to operate, schedule, monitor, and maintain containerized workloads.
+
+11. CNI (Container Network Interface)- is a framework for dynamically configuring networking resources. It uses a group of libraries and specifications written in Go. The plugin specification defines an interface for configuring the network, provisioning IP addresses, and maintaining connectivity with multiple hosts.
+
+12. NETWROK MODELS USED IN CNI- <br> <br>
+      A. Encapsulated network - The model encapsulates a logical Layer 2 network over an existing Layer 3 network topology, which covers multiple Kubernetes nodes. Layer 2 network is isolated so there is no need for routing distribution. <br>
+    Eg- Canal, Flannel, and Weave. <br. <br>
+      B. Uencapsulated network - This model provides a Layer 3 network for routing packets between containers. There is no isolated Layer 2 network or overhead, but this is at the expense of Kubernetes workers, which must manage any required route distribution. <br>
+    Eg- Romana, Calico.
+
+13. Orchestrator - Orchestration is the coordination and management of multiple computer systems, applications and/or services, stringing together multiple tasks in order to execute a larger workflow or process. These processes can consist of multiple tasks that are automated and can involve multiple systems.
+
+14. Hypervisor - A hypervisor aka virtual machine monitor or VMM, is software that creates and runs virtual machines (VMs). A hypervisor allows one host computer to support multiple guest VMs by virtually sharing its resources, such as memory and processing. 
+
+15. Zero touch provisioning - 
+16. zero trust security -                                                                        
+      
     
   
 
